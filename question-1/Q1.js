@@ -1,3 +1,4 @@
+
 function lowerCaseWords(mixedArray) {
     return new Promise((resolve, reject) => {
         if (!Array.isArray(mixedArray)) {
