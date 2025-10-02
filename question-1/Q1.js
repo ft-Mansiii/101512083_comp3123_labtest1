@@ -13,7 +13,7 @@ function lowerCaseWords(mixedArray) {
 }
 
 // Test
-const mixedArray = ['PIZZA', 10, true, 'Burgers', 'Fries', 99];
+const mixedArray = ['PIZZA', 10, true, 25 , false, "Wings"];
 lowerCaseWords(mixedArray)
     .then(result => console.log("Result:", result))
     .catch(error => console.error("Error:", error));

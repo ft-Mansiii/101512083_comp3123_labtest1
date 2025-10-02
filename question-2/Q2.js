@@ -1,5 +1,3 @@
-// Q2/callbacks.js
-
 function resolvedPromise() {
     return new Promise((resolve) => {
         setTimeout(() => resolve({ message: "delayed success" }), 500);
@@ -12,12 +10,10 @@ function rejectedPromise() {
     });
 }
 
-// Call resolvedPromise
 resolvedPromise()
     .then(result => console.log(result))
     .catch(error => console.error(error));
 
-// Call rejectedPromise
 rejectedPromise()
     .then(result => console.log(result))
     .catch(error => console.error(error));
